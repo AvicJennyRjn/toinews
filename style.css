@@ -1,0 +1,79 @@
+
+
+.points{
+    padding-left: 10%;
+}
+.share-icons li{
+    margin-left: -10%;
+}
+.border {
+    border: 1px solid blue;
+}
+.lines{
+    border: 2px solid black;
+    
+    
+}
+
+.newscategories img{
+    width: 100px;
+}
+.othertimes{
+    font-size: 12px;
+    margin-right: -5%;
+    
+    padding-left: 5%;
+    display: inline-block;
+    vertical-align: baseline;
+}
+.othertimes::before {
+    width: 10px;
+  
+    margin-left: -6%;
+    
+    
+    
+    
+}
+.othertimes::after{
+    width: 100%;
+    margin-left: 2px;
+}
+.othertimes::before , .othertimes::after {
+    background:red;
+    position: absolute;
+    height: 1px;
+    top:50%;
+    content: "";
+   
+}
+
+.tested{
+    text-transform: uppercase;
+}
+.tested::before{
+    content: "";
+    height: 1px;
+    background: red;
+    width:10px;
+    position: absolute;
+    top:10px;
+    margin-left: -7%;
+    
+    
+    
+    
+}
+.tested{
+    padding-left: 3%;
+    
+}
+.tested::after{
+    width: 60%;
+    background: green;
+    height: 3px;
+    position: absolute;
+    top:10px;
+    content: "";
+   
+}
